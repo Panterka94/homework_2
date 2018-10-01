@@ -4,7 +4,7 @@ letters = {}
 vowels = ['a', 'e', 'i', 'o', 'u', 'y']
 index = 1
 
-for letter in ("a".."z") 
+for letter in ("a".."z")
   letters[letter] = index if vowels.include?(letter)
   index += 1
 end

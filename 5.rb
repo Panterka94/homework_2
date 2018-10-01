@@ -26,9 +26,7 @@ year = gets.to_i
 
 # Если год високосный в феврале 29 дней
 leap_year = (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)
-if leap_year
-  days_per_month[2] += 1
-end
+days_per_month[2] += 1 if leap_year
 
 number_of_day = 0
 
