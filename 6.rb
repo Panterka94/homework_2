@@ -19,7 +19,7 @@ while product_name != "stop"
   puts "Input quantity of product:"
   quantity = gets.to_f
 
-  shopping_basket[product_name] = {price_per_item => quantity}
+  shopping_basket[product_name] = { price_per_item => quantity }
 
   # Название товара
   puts "Input product name:"
